@@ -32,7 +32,6 @@ const Book=(props)=>{
     <img src={img} alt=""/>
     <h1>{title}</h1>
     <p>{author}</p>
-    
   </article>
 };
 
