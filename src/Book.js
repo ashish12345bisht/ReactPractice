@@ -3,7 +3,7 @@ import React from 'react'
 const Book=(props)=>{
   // attribute, eventHandler 
   const clickHandler=(title)=>{
-    alert("hello world!! "+title);
+    alert(title);
   };
   const { img, title, author } = props.book;
   return <article className="book" onMouseOver={()=>{
@@ -12,7 +12,7 @@ const Book=(props)=>{
     <img src={img} alt=""/>
     <h1 onClick={()=>console.log(title)}>{title}</h1>
     <p>{author}</p>
-    <button type="button" onClick={()=>clickHandler(title)}>Example</button>
+    <button type="button" onClick={()=>clickHandler(title)}>About</button>
   </article>
 };
 
