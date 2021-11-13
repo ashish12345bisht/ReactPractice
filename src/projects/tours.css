@@ -1,0 +1,20 @@
+.tours img{
+    width: 400px;
+}
+.tours{
+    margin: 4em auto;
+    
+    text-align: center;
+    width: 500px;
+    padding: 1em;
+}
+.place{
+    background-color: antiquewhite;
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.place p{
+    font-size: 20px;
+    text-align: justify;
+}

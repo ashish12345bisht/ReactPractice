@@ -1,0 +1,19 @@
+.slider {
+  background: url("https://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thenewyorker.png,fl_progressive,g_face,h_450,q_80,w_800/v1590006383/thenewyorker_the-oddest-terms-used-for-antique-books-explained.jpg");
+  text-align: center;
+  color: white;
+  padding-top: 6em;
+  height: 400px;
+  background-size: cover;
+}
+.slider h1{
+    font-size: 4em;
+    text-shadow: 5px 5px 1px red;
+}
+.slider marquee{
+    font-size: 2em;
+    text-shadow: 5px 5px 1px black;
+}
+.display1 {
+  display: block;
+}

@@ -6,9 +6,7 @@ const Book=(props)=>{
     alert(title);
   };
   const { img, title, author } = props.book;
-  return <article className="book" onMouseOver={()=>{
-    console.log(title);
-  }}>
+  return <article className="book">
     <img src={img} alt=""/>
     <h1 onClick={()=>console.log(title)}>{title}</h1>
     <p>{author}</p>

@@ -1,0 +1,27 @@
+export const dates=
+[
+    {
+        id:1,
+        name:"Ashish",
+        age:21,
+        image:"https://wallpapercave.com/wp/wp3788126.jpg"
+    },
+    {
+        id:2,
+        name:"Anshul",
+        age:21,
+        image:"https://wallpaperaccess.com/full/327366.jpg"
+    },
+    {
+        id:3,
+        name:"Ankit",
+        age:21,
+        image:"https://www.khelmart.com/Cricket/zoomer_Image/NB_BP_03_large.jpg"
+    },
+    {
+        id:4,
+        name:"Jassi",
+        age:21,
+        image:"https://wallpapercave.com/wp/wp3788127.jpg"
+    }
+];

@@ -1,0 +1,24 @@
+.main-card img {
+  width: 200px;
+  height: 200px;
+}
+.main-card {
+  display: block;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+}
+.birthdayCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.clear{
+    position: relative;
+    left: 45%;
+}
+.clear:hover {
+  color: black;
+  background-color: white;
+}

@@ -1,0 +1,17 @@
+.footer{
+    background-color: #272727;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer div:nth-child(2){
+    padding: 2em;
+    text-align: right;
+}
+p{
+    font-size: 1.5em;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
